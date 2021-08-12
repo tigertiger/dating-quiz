@@ -17,8 +17,18 @@ width:60%;
 padding:20px 0px 10px 0px;
 }
 
-#match {
+#getMatch {
   margin:30px 0px 50px 0px;
   padding: 3px;
 
+}
+
+#again {
+  display:none;
+  margin:30px 0px 50px 0px;
+  padding: 3px;
+}
+
+.match {
+  display:none;
 }
