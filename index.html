@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Dating Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the only dating quiz guaranteed to expand your horizens!</h1>
+    <form id="datingQuiz">
+      <div class="quizItem">
+        <h5>Preferred Age</h5>
+        <select class="form-control" id="ageGroup">
+          <option value="young">Young</option>
+          <option value="middleAged">Middle-Aged</option>
+          <option value="old">Long in the Tooth</option>
+          <option value="eternal">Eternal</option>
+        </select>
+      </div>
+      <div class="quizItem">
+        <h5>Gender Preference</h5>
+          <select class="form-control" id="genderPrefs">
+          <option value="none">None</option>
+          <option value="women">Women</option>
+          <option value="men">Men</option>
+          <option value="genderless">Genderless</option>
+        </select>
+      </div>
+      <div class="quizItem">
+        <h5>Preferred Species</h5>
+        <select class="form-control" id="species">
+          <option value="human">Human</option>
+          <option value="mythicalBeast">Mythical Beast</option>
+          <option value="mundaneBeast">Mundane Beast</option>
+          <option value="humanoidB">Humanoid, Beautiful</option>
+          <option value="humanoidU">Humanoid, Hideous</option>
+          <option value="nonCorporeal">Non Corporeal Being</option>
+        </select>
+      </div>
+      <div class="quizItem">
+        <h5>Preferred Magic Level</h5>
+        <select class="form-control" id="magicLevel">
+          <option value="nonMagic">Non-Magic</option>
+          <option value="lowMagic">Low-Magic</option>
+          <option value="highMagic">High-Magic</option>
+          <option value="omnipotent">Basically Omnipotent</option>
+        </select>
+      </div>
+      <div class="quizItem">
+        <h5>Preferred Alignment</h5>
+          <select class="form-control" id="alignment">
+          <option value="lawfulGood">Lawful Good</option>
+          <option value="neutralGood">Neutral Good</option>
+          <option value="chaoticGood">Chaotic Good</option>
+          <option value="lawfulNeutral">Lawful Neutral</option>
+          <option value="neutralNeutral">True Neutral</option>
+          <option value="chaoticNeutral">Chaotic Neutral</option>
+          <option value="neutralEvil">Neutral Evil</option>
+          <option value="lawfulEvil">Lawful Evil</option>
+          <option value="chaoticEvil">Chaotic Evil</option>
+        </select>
+      </div>
+      <div class="quizItem">
+        <h5>Preferred Tech Level</h5>
+        <select class="form-control" id="techLevel">
+          <option value="lowTech">Low Tech</option>
+          <option value="highTech">High Tech</option>
+          <option value="robot">Robot</option>
+          <option value="hiveMind">Hive Mind</option>
+        </select>
+      </div>
+      <button id="match" type="submit">Get your match!</button>
+    </form>
+  </div>  
+</body>
+</html>
